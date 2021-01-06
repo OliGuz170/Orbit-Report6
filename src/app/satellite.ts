@@ -14,7 +14,7 @@ export class Satellite {
 
 
 //add an angular attribute directive to highlight space debris
-isSpaceDebris(){
+shouldShowWarning(){
     if (this.type.toLowerCase() === 'space debris'){
         return true;
     } else {
